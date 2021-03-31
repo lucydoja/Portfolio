@@ -5,6 +5,7 @@ import { NavBar } from "./component/navbar.js";
 import { Footer } from "./component/footer.js";
 import { Home } from "./views/home.js";
 import { Info } from "./views/info.js";
+import { Curriculum } from "./views/curriculum.js";
 
 export const Layout = () => {
 	return (
@@ -14,6 +15,7 @@ export const Layout = () => {
 				<Switch>
 					<Route exact path="/" component={Home} />
 					<Route exact path="/info/:titulo" component={Info} />
+					<Route exact path="/CV" component={Curriculum} />
 					<Route>
 						<h1>Not found!</h1>
 					</Route>

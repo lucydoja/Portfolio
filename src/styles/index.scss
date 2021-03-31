@@ -47,7 +47,50 @@ footer  {
 
 #texto {
   text-align: justify;
-  color: rgb(185, 185, 185);
+  color: white;
   
   
+}
+
+.curriculum{
+    color: white;
+}
+
+table,  td {
+  border: 1px solid black;
+  background-color: white;
+  color: black
+
+}
+
+tr {
+    background-color: rgba(35,193,201,1);
+    border: 1px solid black;
+}
+
+.progress-bar{
+    position: relative;
+    height: 20px;
+    min-width: 100%;
+    
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: white;
+    //background: rgb(255,255,255);
+    //background: radial-gradient(circle, rgba(255,255,255,1) 38%, rgba(207,207,209,1) 100%);
+    
+ 
+}
+
+.filler{
+    
+    height: 100%;
+    border-radius: inherit;
+    transition: width .2 ease-in;
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    margin: 0px;
+    background: rgb(230,232,128);
+background: linear-gradient(90deg, rgba(230,232,128,1) 0%, rgba(65,145,52,1) 82%);
 }
